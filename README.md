@@ -23,7 +23,7 @@ Setup:
 
 1) FI-2010.zip - FI-2010 dataset used in this work;
 2) Folder 'sota_models' contains DeepLOB and DeepResLOB models;
-3) Folder 'weights' contains weights for all three classification experiments (FI-2010, two setups for cryptocurrency) with different prediction horizons for DeepLOB and DeepResLOB models;
+3) Folder 'weights' contains weights for all three classification experiments (FI-2010, two setups for cryptocurrency) with different prediction horizons for DeepLOB and DeepResLOB models, in addition to that in subfolder 'portfolio' there are weights for the LSTM portfolio allocation model trained with three different loss functions;
 4) Binance_API_dataset.ipynb, Data_preprocessing.ipynb - Jupyter notebooks showing how we performed the collection of data through Binance API and the preprocessing steps described in the report (some operations there require mounted Google Drive and redoing it takes several hours \ days, since there are gigabytes of data and API is rather slow);
 5) CNN_LSTM_baseline.ipynb - baseline models and code showing how training process was performed for them;
 6) train_deep.py - training and testing code for the DeepLOB and DeepResLOB models;
