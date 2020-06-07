@@ -29,7 +29,8 @@ Setup:
 6) train_deep.py - training and testing code for the DeepLOB and DeepResLOB models;
 7) dataset_wrapper.py - PyTorch Dataset wrappers around the data;
 8) Portfolio.ipynb - code of the portfolio optimization part and related experiments;
-9) Folder 'images' contains images used in this README.
+9) DeepResLOB_exp.ipynb - experiments (FI-2010, both token setups) for DeepLOB and DeepResLOB;
+10) Folder 'images' contains images used in this README.
 
 # Model architecture - DeepResLOB
 
