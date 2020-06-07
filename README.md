@@ -1,7 +1,8 @@
 # Skoltech Deep Learning course project 2020
 # Convolutional RNNs for Portfolio Investments of Cryptocurrencies using Order Book Data
 
-Team members: Aiusha Sangadiev, Kirill Stepanov, Andrey Poddubny, Kirill Bubenchikov, Nikita Bekezin
+Team members: Aiusha Sangadiev, Kirill Stepanov, Andrey Poddubny, Kirill Bubenchikov, Nikita Bekezin.
+
 This repository contains code related to the project report, and also the FI-2010 dataset with a link to download the cryptocurrency dataset (it was too big to be uploaded on github).
 
 # Setup and Dependencies
@@ -35,3 +36,18 @@ Setup:
 ![](/images/deep_res_lob.png)
 
 The full description of the model and its architecture is provided in the report.
+
+# Results
+
+Solved some of the DeepLOB problems:
+1) Reduced sensitivity to weights allocation:
+![](/images/exp1.png)
+2) Faster and better convergence:
+![](/images/exp2.png)
+
+Thorough comparison of DeepResLOB against DeepLOB and two baseline CNN & LSTM models can found in the report.
+
+Portfolio optimization results:
+![](/images/ready_markowitz.jpg)
+
+It can be seen, that the proposed approach performs the best when using maximum drawdown (MDD) as a loss function.
