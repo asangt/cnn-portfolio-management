@@ -19,6 +19,8 @@ Setup:
 3) download the crypto_data.zip dataset from Google Disk - https://drive.google.com/file/d/1ds6CB_tPeGoUU5Hd4XU12e91YnNTOqHT/view?usp=sharing , unpack into the 'crypto_data' folder or change data paths in the Jupyter notebooks;
 4) download the data necessary for the portfolio optimization from Google Disk - https://drive.google.com/file/d/1ThS9O2ILrbR76RU7JJQN1zXPPUV4ooBp/view?usp=sharing , unpack into the 'portfolio_data' folder or change data paths in the notebooks.
 
+P.S. If using in colab, please change AUX_DATA_ROOT to fit your path structure on the Drive.
+
 # Content
 
 1) FI-2010.zip - FI-2010 dataset used in this work;
