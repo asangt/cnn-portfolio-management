@@ -32,6 +32,6 @@ Setup:
 
 # Model architecture - DeepResLOB
 
-![](/image/architecture.png)
+![](/image/deep_res_lob.png)
 
 The full description of the model and its architecture is provided in the report.
