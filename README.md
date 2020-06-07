@@ -41,13 +41,16 @@ The full description of the model and its architecture is provided in the report
 
 Solved some of the DeepLOB problems:
 1) Reduced sensitivity to weights allocation:
+
 ![](/images/exp1.png)
 2) Faster and better convergence:
+
 ![](/images/exp2.png)
 
 Thorough comparison of DeepResLOB against DeepLOB and two baseline CNN & LSTM models can found in the report.
 
 Portfolio optimization results:
+
 ![](/images/ready_markowitz.jpg)
 
 It can be seen, that the proposed approach performs the best when using maximum drawdown (MDD) as a loss function.
